@@ -27,6 +27,7 @@ html {
 }
 
 body {
+  display: flex;
   height: 100vh; /*o height em 100 ele pega a tela inteira*/
   background: var(--background);
 }
@@ -91,7 +92,7 @@ button:hover,
 
 button > img,
 .button > img {
-  margin-right: 2rem;
+  margin-right: 1rem;
   width: 2rem;
 }
 
